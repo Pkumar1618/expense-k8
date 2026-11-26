@@ -39,7 +39,7 @@ spec:
         image: kumarprashanth/backend:v1
         envFrom: 
         - configMapRef:
-          name: backend
+          name: mysql
 ---
 apiVersion: v1
 kind: Service
