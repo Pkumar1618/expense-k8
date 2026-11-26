@@ -13,7 +13,7 @@ spec:
     matchLabels:
       app: frontend
       tier: web
-      project: expensee
+      project: expense
   template:
     metadata:
       labels:
@@ -41,4 +41,3 @@ spec:
     protocol: TCP
     port: 80
     targetPort: 80
-
